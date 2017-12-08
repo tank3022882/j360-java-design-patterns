@@ -1,18 +1,21 @@
 package me.qsh.newborn.factory;
 
-import me.qsh.newborn.sender.Sender;
+import me.qsh.newborn.product.Product;
+import me.qsh.newborn.product.ProductB;
 
 /**
- * 接口 - 发送器工厂
+ * 工厂 - B
  * ============================================================================
  * 版权所有 2017 。
  *
  * @author fallenpanda
- * @version 1.0 2017-12-06 。
+ * @version 1.0 2017-12-08 。
  * ============================================================================
  */
-public interface SenderFactory {
+public class FactoryB extends Factory {
 
-    Sender productSender();
+    public Product createProducer() {
+        return new ProductB();
+    }
 
 }

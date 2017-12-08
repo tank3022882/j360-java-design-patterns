@@ -1,20 +1,18 @@
-package me.qsh.newborn.sender;
+package me.qsh.newborn.factory;
+
+import me.qsh.newborn.product.Product;
 
 /**
- * 接口 - 发送器
+ * 工厂
  * ============================================================================
  * 版权所有 2017 。
  *
  * @author fallenpanda
- * @version 1.0 2017-12-06 。
+ * @version 1.0 2017-12-08 。
  * ============================================================================
  */
-public interface Sender {
+public abstract class Factory {
 
-    /**
-     * 发送信息
-     * @param message
-     */
-    void send(String message);
+    public abstract Product createProducer();
 
 }

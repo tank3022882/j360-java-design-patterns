@@ -1,18 +1,18 @@
-package me.qsh.newborn.sender;
+package me.qsh.newborn.product;
 
 /**
- * 实现 - 邮件发送器
+ * 产品B 系列1
  * ============================================================================
  * 版权所有 2017 。
  *
  * @author fallenpanda
- * @version 1.0 2017-12-06 。
+ * @version 1.0 2017-12-08 。
  * ============================================================================
  */
-public class MailSender implements Sender {
+public class ProductB1 extends ProductB {
 
-    public void send(String message) {
-        System.out.println("邮件: "+message);
+    public void doSomething() {
+        System.out.println("产品B1的实现方法");
     }
 
 }
