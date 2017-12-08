@@ -13,6 +13,9 @@
         <module>demo2-abstract-factory</module>
         <module>demo3-singleton</module>
         <module>demo4-builder</module>
+        <module>demo5-prototype</module>
+        <module>demo6-adapter</module>
+        <module>demo7-decorator</module>
     </modules>
 
 </project>

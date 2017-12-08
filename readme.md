@@ -4,7 +4,9 @@
 2. demo2-abstract-factory **抽象工厂模式（Abstract Factory）**
 3. demo3-singleton **单例模式（Singleton）**
 4. demo4-builder **建造者模式（Builder）**
-
+5. demo5-prototype **原型模式（Prototype）**
+6. demo6-adapter **适配器模式（Adapter）**
+7. demo7-decorator **装饰者模式（Decorator）**
 
 > 参考原文 [Java之美[从菜鸟到高手演变]之设计模式][1]<br>
 > 参考原文 [Design patterns implemented in Java][2]<br>
