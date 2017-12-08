@@ -26,9 +26,11 @@ public class NormalUser extends User {
         }
 
         public NormalUser build() {
-            // 属性校验判断...
+            // 属性校验判断...（非线程安全）
+            NormalUser user = new NormalUser(username, password, nickname);
+            // 属性校验判断...（线程安全）
 
-            return new NormalUser(username, password, nickname);
+            return user;
         }
 
     }
