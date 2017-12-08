@@ -19,5 +19,3 @@
 
 #### 总结
 和工厂模式不同的是，Builder模式需要详细的指导产品的生产。指导者（Director）使用Construct方法构造产品BuilderProduct，但是它不直接参与构造过程，而是把构造的任务交给生成器（Builder）。Builder提供了产品每一个部件构造的实现方法（可以是默认实现），但是如果要获得最终的产品，需要派生Builder的子类，添加getResult方法返回最终的产品对象。BuildPart方法正是被指导者调用指挥产品生产流程的接口。
-  
-

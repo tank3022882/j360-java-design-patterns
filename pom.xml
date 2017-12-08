@@ -16,6 +16,8 @@
         <module>demo5-prototype</module>
         <module>demo6-adapter</module>
         <module>demo7-decorator</module>
+        <module>demo8-proxy</module>
+        <module>demo9-facade</module>
     </modules>
 
 </project>
